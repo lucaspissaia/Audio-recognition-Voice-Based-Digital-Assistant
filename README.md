@@ -28,8 +28,7 @@ O projeto simula um atendimento telefônico automatizado. O fluxo de interação
 
 Este é o fluxo visual do pipeline:
 
-```mermaid
-graph TD
+
     A[Início: Geração de Áudios (TTS)] --> B(Bot toca "boas_vindas.mp3")
     B --> C(Usuário fornece arquivo de áudio)
     C --> D[Sistema Transcreve (STT com Google API)]
